@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/Narayanan-info/Redir_X/">
-    <img src="https://github.com/Narayanan-info/Redir_X/blob/04b0d98f2f2e84f996772509ed0d105cc39705e2/Assets/release_v1.0.0.svg">
+    <img src="https://github.com/Narayanan-info/Redir_X/blob/4f7f926449b81565c7d3eee2b51e1f3f1c69350f/Assets/release_v1.0.0.svg">
   </a>
   <a href="https://travis-ci.com/s0md3v/XSStrike">
     <img src="https://img.shields.io/travis/com/s0md3v/XSStrike.svg">
