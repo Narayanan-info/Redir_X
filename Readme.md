@@ -10,12 +10,12 @@
 
 <p align="center">
   <a href="https://github.com/Narayanan-info/Redir_X/">
-    <img src="https://github.com/Narayanan-info/Redir_X/blob/4f7f926449b81565c7d3eee2b51e1f3f1c69350f/Assets/release_v1.0.0.svg">
+    <img src="https://github.com/Narayanan-info/Redir_X/blob/5b15405191648c6887a2876b603231f2ae41be1a/Assets/release_version.svg">
   </a>
   <a href="https://travis-ci.com/s0md3v/XSStrike">
     <img src="https://img.shields.io/travis/com/s0md3v/XSStrike.svg">
   </a>
   <a href="https://github.com/s0md3v/XSStrike/issues?q=is%3Aissue+is%3Aclosed">
-      <img src="https://img.shields.io/github/issues-closed-raw/s0md3v/XSStrike.svg">
+      <img src="https://github.com/Narayanan-info/Redir_X/blob/5b15405191648c6887a2876b603231f2ae41be1a/Assets/closed_issues.svg">
   </a>
 </p>
