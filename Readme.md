@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Narayanan-info/Redir_X/"><img src="https://github.com/Narayanan-info/Redir_X/blob/04b0d98f2f2e84f996772509ed0d105cc39705e2/Assets/Image_1.png" alt="Assets"></a>
+  <a href="https://github.com/Narayanan-info/Redir_X/"><img src="https://github.com/Narayanan-info/Redir_X/blob/04b0d98f2f2e84f996772509ed0d105cc39705e2/Assets/Image.png" alt="Assets"></a>
   <br>
   Redir_X
   <br>
@@ -19,5 +19,3 @@
       <img src="https://github.com/Narayanan-info/Redir_X/blob/5b15405191648c6887a2876b603231f2ae41be1a/Assets/closed_issues.svg">
   </a>
 </p>
-
-
