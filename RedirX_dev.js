@@ -98,10 +98,16 @@ class Scanner {
 
   parseUrl(url, payload) {
     const { query } = urlLib.parse(url);
-    const key = query ? query.split("=")[0] : "";
+    const key = query ? query.split("=")[0] : "url";
     const finalUrl = new URL(url);
-    finalUrl.searchParams.set(key, payload);
+    if (key) {
+      finalUrl.searchParams.set(key, payload);
+    } else {
+      finalUrl.search = new URLSearchParams(key).toString();
+      finalUrl.searchParams.set(key, payload);
+    }
     return finalUrl.href;
+
   }
 
   // New function to store URLs in files

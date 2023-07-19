@@ -47,3 +47,5 @@ node RedirX_dev.js -u <URL> -p <payload_file> -t <thread>
 ```
 
 
+
+
