@@ -1,6 +1,7 @@
 const axios = require("axios");
 const fs = require("fs");
 const urlLib = require("url");
+const path = require("path");
 
 // Parse command-line arguments
 const args = process.argv.slice(2);
@@ -103,7 +104,21 @@ class Scanner {
     return finalUrl.href;
   }
 
+  // New function to store URLs in files
+  saveURLsToFile(filename, urls) {
+    const outputPath = path.join(__dirname, "output");
+    if (!fs.existsSync(outputPath)) {
+      fs.mkdirSync(outputPath);
+    }
+
+    const filePath = path.join(outputPath, filename);
+    fs.appendFileSync(filePath, urls.join("\n"), "utf8");
+    console.log(`\x1b[32m[+] ${urls.length} URLs saved to ${filename}\x1b[0m`);
+  }
+
   async scanner(payloads, cookies) {
+    const possibleOpenRedirectionURLs = [];
+    const vulnerableURLs = [];
     for (const payload of payloads) {
       const url = this.parseUrl(this.url, payload);
       try {
@@ -112,8 +127,7 @@ class Scanner {
           : axios.get(url));
         const locationHeader = response.headers["location"];
         if (!locationHeader) {
-
-
+          possibleOpenRedirectionURLs.push(url);
           // No Location header in response, possible open redirection
 
           console.log(
@@ -125,6 +139,7 @@ class Scanner {
         }
         const { hostname } = new URL(locationHeader);
         if (hostname === options.whitelist_domain) {
+          vulnerableURLs.push(url);
           console.log("\x1b[31mVulnerable ", url, "\x1b[0m");
         }
       } catch (error) {
@@ -142,6 +157,8 @@ class Scanner {
         }
       }
     }
+    this.saveURLsToFile("possible_open_redirection_urls.txt", possibleOpenRedirectionURLs);
+    this.saveURLsToFile("vulnerable_urls.txt", vulnerableURLs);
   }
 
   async start() {
