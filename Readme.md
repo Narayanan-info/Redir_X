@@ -39,6 +39,7 @@ The Active model guarantees speed and stealthiness that can be leveraged by both
 - Optimized for speed and **lightweight** on resources
 - **STDIN/OUT** support enables easy integration into workflows
 
+--
 <h1 align="left">
   <img src="Assets/Image1.png" alt="RedirX" width="700px"></a>
   <br>
