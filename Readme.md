@@ -34,12 +34,12 @@ The Active model guarantees speed and stealthiness that can be leveraged by both
   <br>
 </h1>
 
-<!-- - Fast and powerful resolution - [ Active Open Redirect ]
+- Fast and powerful resolution - [ Active Open Redirect ]
 - **Curated** Active sources to maximize results
 - Optimized for speed and **lightweight** on resources
 - **STDIN/OUT** support enables easy integration into workflows
 
-# Execution
+<!-- # Execution
 
 <h1 align="left">
   <img src="Assets/Image1.png" alt="RedirX" width="700px"></a>
