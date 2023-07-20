@@ -22,8 +22,7 @@
 
 ---
 
-`RedirX` is a Advance Open Redirect Vulnerability Scanner tool that returns valid vulnerable poc for vulnerable websites, using Active online sources. It has a simple, modular architecture and is optimized for speed. `RedirX` is built for
-doing one thing only - Active Advance Open Scanner, and it does that very well.
+`RedirX` is a Advance Open Redirect Vulnerability Scanner tool that returns valid vulnerable poc for vulnerable websites, using Active online sources. It has a simple, modular architecture and is optimized for speed. `RedirX` is built for doing one thing only - Active Advance Open Scanning, and it does that very well, and it will be genrated posibale to vulnerabile and vulnerabile url's `OUTPUT` are saved on you'r tool directory. 
 
 The Active model guarantees speed and stealthiness that can be leveraged by both penetration testers and bug bounty hunters alike.
 
@@ -48,9 +47,18 @@ The Active model guarantees speed and stealthiness that can be leveraged by both
 
 # Usage
 
+`Usage` This command is used to execute the function of the tool then actively validate the url for vulnerabile to active open redirect
+
 ```sh
-node RedirX_dev.js -u <URL> -p <payload_file> -t <thread>
+node RedirX_dev.js -u <URL> -p <payload_file> -t <thread> 
 ```
+
+`whitelisted` This command is used for whitelisted youi trageted domain
+
+```sh
+node RedirX_dev.js -u <URL> -p <payload_file> -t <thread> -w <whitelisted>
+```
+
 
 
 
