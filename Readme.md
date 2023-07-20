@@ -50,7 +50,7 @@ The Active model guarantees speed and stealthiness that can be leveraged by both
 `Usage` This command is used to execute the function of the tool then actively validate the url for vulnerabile to active open redirect
 
 ```sh
-node RedirX_dev.js -u <URL> -p <payload_file> -t <thread> 
+node RedirX.js -u <URL> -p <payload_file> -t <thread> 
 ```
 
 `whitelisted` This command is used for whitelisted you trageted domain
