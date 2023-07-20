@@ -98,7 +98,7 @@ class Scanner {
 
   parseUrl(url, payload) {
     const { query } = urlLib.parse(url);
-    const key = query ? query.split("=")[0] : "r";
+    const key = query ? query.split("=")[0] : "redirect";
     const finalUrl = new URL(url);
     if (key) {
       finalUrl.searchParams.set(key, payload);

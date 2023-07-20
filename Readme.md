@@ -61,7 +61,7 @@ node RedirX_dev.js -u <URL> -p <payload_file> -t <thread> -w <whitelisted>
 
 # License 
 
-`RedirX` is my first tool pentesting tool with love. Certainly! The MIT License is a permissive open-source software license that allows developers to use, modify, distribute, and sublicense the software with very few `restrictions`. It is widely used in the software development community due to its simplicity and permissiveness. Under the MIT License, users can freely use the software in both personal and commercial projects, as long as they include the original copyright notice and disclaimers. This license is often favored for its flexibility and encouragement of collaboration among `developers`.
+`RedirX` is my first tool for pentesting and bug bounty hunting with love. Certainly! The MIT License is a permissive open-source software license that allows developers to use, modify, distribute, and sublicense the software with very few `restrictions`. It is widely used in the software development community due to its simplicity and permissiveness. Under the MIT License, users can freely use the software in both personal and commercial projects, as long as they include the original copyright notice and disclaimers. This license is often favored for its flexibility and encouragement of collaboration among `developers`.
 
 
 
