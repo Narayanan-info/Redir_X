@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Narayanan-info/Redir_X/"><img src="Assets/Image_f.png" alt="Assets"></a>
+  <a href="https://github.com/Narayanan-info/Redir_X/"><img src="Assets/Image_1.png" alt="Assets"></a>
   <br>
   Redir_X
   <br>
@@ -29,7 +29,7 @@ The Active model guarantees speed and stealthiness that can be leveraged by both
 # Features
 
 <h1 align="left">
-  <img src="Assets/Image.png" alt="RedirX" width="700px"></a>
+  <img src="Assets/Image_2.png" alt="RedirX" width="700px"></a>
   <br>
 </h1>
 
@@ -41,7 +41,7 @@ The Active model guarantees speed and stealthiness that can be leveraged by both
 # Execution
 
 <h1 align="left">
-  <img src="Assets/Image_1.png" alt="RedirX" width="700px"></a>
+  <img src="Assets/Image_3.png" alt="RedirX" width="700px"></a>
   <br>
 </h1>
 
