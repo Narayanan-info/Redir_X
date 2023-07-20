@@ -56,7 +56,7 @@ node RedirX_dev.js -u <URL> -p <payload_file> -t <thread>
 `whitelisted` This command is used for whitelisted you trageted domain
 
 ```sh
-node RedirX_dev.js -u <URL> -p <payload_file> -t <thread> -w <whitelisted>
+node RedirX.js -u <URL> -p <payload_file> -t <thread> -w <whitelisted>
 ```
 
 # License 
