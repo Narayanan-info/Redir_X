@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Narayanan-info/Redir_X/"><img src="https://github.com/Narayanan-info/Redir_X/blob/5929d37673424f908156f97803f79da2d5c72f85/Assets/Image.png" alt="Assets"></a>
+  <a href="https://github.com/Narayanan-info/Redir_X/"><img src="Assets/Image_f.png" alt="Assets"></a>
   <br>
   Redir_X
   <br>
